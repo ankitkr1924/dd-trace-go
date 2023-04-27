@@ -29,6 +29,19 @@ type SpanContextW3C interface {
 	// The string will be exactly 32 bytes and may include leading zeroes.
 	TraceID128() string
 
+
+
+
+
+
+
+
+
+
+
+
+
+	// 123
 	// TraceID128 returns the raw bytes of the 128-bit trace ID that this context is carrying.
 	TraceID128Bytes() [16]byte
 }
